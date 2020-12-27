@@ -1,12 +1,31 @@
+body {
+  margin: 0;
+}
+
+.first {
+  background-color: rgb(0,0,110);
+  background-image: url("../img/circuit.gif");
+}
+
+.first {
+  padding: 10em;
+  color: white;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  font-size: 300%;
   text-align: center;
+}
+
+.first>h1, .first>h2 {
+  background-color: rgb(0,0,110);
 }
 
 h2 {
   font-family: 'Space Mono', monospace;
-  font-size: 95%;
+  font-size: 150%;
   margin: 0;
   text-align: center;
 }
